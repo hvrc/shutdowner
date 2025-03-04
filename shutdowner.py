@@ -149,7 +149,6 @@ def cancel_shutdown():
     second_picker.update_value(0)
     start_button.config(state=tk.NORMAL)
     cancel_button.config(state=tk.DISABLED)
-    os.system("shutdown /a")
     shutdown_time_label.config(text="", bg="white")
     shutdown_time_actual_label.config(text="", bg="white")
 
@@ -164,7 +163,6 @@ root.geometry("400x280")
 root.iconbitmap("art/icon.ico")
 root.config(bg="white")
 
-# Set the background of frames to white
 time_frame = tk.Frame(root, bg="white")
 time_frame.pack(pady=(10, 5))
 
