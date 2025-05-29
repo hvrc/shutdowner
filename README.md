@@ -1,6 +1,6 @@
 Windows app to schedule a shutdown
 
-Works great when you want to fall asleep watching a david attenborough doc
+Perfect for falling asleep while watching a movie
 
 ![Shutdowner Screenshot](art/shutdowner.png)
 
